@@ -9,6 +9,7 @@ Repository for the SM CrossSections calculation service work (generator group)
 
 
 CHANGELOG:
+2013-09-11: added WW card from Guillelmo. It is in MCFM-6.1, so it needs some modifications
 2013-09-10: creation and start of work
 
 TODO:
