@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cat input_template.DAT \
+ | sed s"/PROC/$1/" \
+ | sed s"/ECM/$2/" \
+ | sed s"/M34/$3/" \
+ | sed s"/M56/$4/" \
+ | sed s"/PART/$5/" \
+ | sed s"/SCALE/$6/" \
+ | sed s"/REMOVEBR/$7/" \
+ > input.DAT;
+
+#./mcfm | grep "Value of final tota integral";
+./mcfm;
